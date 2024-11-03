@@ -5,31 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YourComputerHasVirus</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/popup.css">
+  <link rel="stylesheet" href="styles/windows.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="terminal">
-    <img src="images/terminal.png" alt="Windows 95's terminal image">
-    <div id="inside-terminal">
-      <p id="windows-version">Microsoft(R) Windows 95</p>
-      <p id="microsoft-copyright">(C)Copyright Microsoft Corp 1981-1995</p>
-      <div id="commands-input">
-        <p id="user">C:/></p>
-        <textarea id="input"></textarea>
+  <div id="page">
+    <div id="terminal">
+      <div id="inside-terminal">
+        <p id="windows-version">Microsoft(R) Windows 95</p>
+        <p id="microsoft-copyright">(C)Copyright Microsoft Corp 1981-1995</p>
+        <div id="commands-input">
+          <p id="user">C:/></p>
+          <textarea id="input"></textarea>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="notepad">
-    <img src="images/notepad.png" alt="Windows 95's notepad image with the file names virus">
-  </div>
-  <div id="virus-popups"></div>
-  <div id="taskbar">
-    <button id="start">
-      <img src="images/start.png" alt="Windows 95's Start button">
-    </button>
-    <div id="time"></div>
+    <div id="notepad">
+    </div>
+    <div id="past-virus-popups"></div>
+    <div id="taskbar">
+      <button id="start">
+        <img src="images/start.png" alt="Windows 95's Start button">
+      </button>
+      <div id="time"></div>
+    </div>
   </div>
   <script type="module" src="scripts/scripts.js"></script>
 </body>
