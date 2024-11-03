@@ -1,0 +1,121 @@
+body {
+    background-color: #038084;
+    font-family: Tiny5;
+    overflow: hidden;
+}
+
+#page {
+    display: grid;
+    grid-template-columns: repeat(10, 181px);
+    grid-template-rows: repeat(10, 90px);
+    grid-gap: 10px;
+}
+
+#terminal {
+    background-color: lightblue;
+    grid-area: 1 / 1 / 10 / 6;
+}
+
+#terminal img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+#terminal p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#inside-terminal {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    color: #A8ABAF;
+    font-size: 20px;
+}
+
+#microsoft-copyright {
+    margin-left: 30px;
+}
+
+#terminal #user {
+    margin-top: 15px;
+}
+
+#commands-input {
+    display: flex;
+}
+
+#input {
+    font-family: Tiny5;
+    font-size: 20px;
+    width: 850px;
+    height: 700px;
+    margin: 12px 0px 0px 10px;
+    background-color: black;
+    color: #A8ABAF;
+    border: black;
+    resize: none;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#notepad {
+    background-color: lightcoral;
+    grid-area: 1 / 6 / 4 / 11;
+}
+
+#notepad img {
+    width: 100%;
+    height: 100%;
+}
+
+#past-virus-popups {
+    background-color: lightgreen;
+    grid-area: 4 / 6 / 10 / 11;
+}
+
+#taskbar {
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    grid-area: 10 / 1 / 11 / 11;
+    border-top: 2px solid white;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#start {
+    background-color: transparent;
+    border: none;
+}
+
+#start img {
+    width: 100px;
+    height: auto;
+}
+
+#start-button:hover {
+    cursor: pointer;
+}
+
+#time-button {
+    margin-left: 1630px;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    background-color: #C0C4C8;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-top-color: #84888C;
+    border-left-color: #84888C;
+    font-family: Tiny5;
+    font-size: 27px;
+}
+
+#time-button:hover {
+    cursor: pointer;
+}
