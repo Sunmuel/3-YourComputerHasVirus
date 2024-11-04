@@ -12,14 +12,12 @@ body {
 }
 
 #terminal {
-    background-color: lightblue;
     grid-area: 1 / 1 / 10 / 6;
 }
 
 #terminal img {
-    width: 400px;
-    height: auto;
-    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 #terminal p {
@@ -29,8 +27,8 @@ body {
 
 #inside-terminal {
     position: absolute;
-    top: 10%;
-    left: 1%;
+    top: 12%;
+    left: 2%;
     color: #A8ABAF;
     font-size: 20px;
 }
@@ -64,7 +62,6 @@ body {
 }
 
 #notepad {
-    background-color: lightcoral;
     grid-area: 1 / 6 / 4 / 11;
 }
 
@@ -74,12 +71,11 @@ body {
 }
 
 #past-virus-popups {
-    background-color: lightgreen;
     grid-area: 4 / 6 / 10 / 11;
 }
 
 #taskbar {
-    background-color: lightsalmon;
+    background-color: #C0C4C8;
     display: flex;
     align-items: center;
     grid-area: 10 / 1 / 11 / 11;
@@ -91,6 +87,7 @@ body {
 #start {
     background-color: transparent;
     border: none;
+    margin-left: 10px;
 }
 
 #start img {
@@ -117,5 +114,58 @@ body {
 }
 
 #time-button:hover {
+    cursor: pointer;
+}
+
+#virus-popup {
+    grid-area: 4 / 5 /6 / 7;
+    background-color: red;
+    z-index: 1;
+}
+
+#virus-popup h1 {
+    position: absolute;
+    margin: 15px 0px 0px 0px;
+    top: 34%;
+    left: 46%;
+    color: black;
+    font-size: 30px;
+}
+
+#ok-button {
+    position: absolute;
+    top: 42%;
+    left: 46%;
+    color: black;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+#ok-button:hover {
+    cursor: pointer;
+}
+
+#ok-button img {
+    width: 150px;
+    height: auto;
+}
+
+#end-task {
+    position: absolute;
+    margin: 5px 0px 0px 0px;
+    top: 31%;
+    left: 58%;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+#end-task img {
+    width: 20px;
+    height: auto;
+}
+
+#end-task:hover {
     cursor: pointer;
 }
