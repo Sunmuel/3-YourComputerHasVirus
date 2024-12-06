@@ -1,7 +1,58 @@
-#virus-popup {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+/* #virus-popup {
+    grid-area: 4 / 5 /6 / 7;
+    background-color: red;
+    z-index: 1;
+  }
 
+  #virus-popup img {
+    pointer-events: none;
+  }
+  
+#virus-popup h1 {
+  position: absolute;
+  margin: 15px 0px 0px 0px;
+  top: 41%;
+  left: 46%;
+  color: black;
+  font-size: 30px;
 }
+  
+#ok-button {
+  position: absolute;
+  top: 49%;
+  left: 46%;
+  color: black;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+#ok-button:hover {
+  cursor: pointer;
+}
+
+#ok-button img {
+  pointer-events: none;
+  width: 150px;
+  height: auto;
+}
+
+#end-task {
+  position: absolute;
+  margin: 5px 0px 0px 0px;
+  top: 38%;
+  left: 58%;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+
+#end-task img {
+  pointer-events: none;
+  width: 20px;
+  height: auto;
+}
+
+#end-task:hover {
+  cursor: pointer;
+} */
