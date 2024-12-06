@@ -1,0 +1,1 @@
+Basically in YourComputerHasVirus you have to save your computer by writing some codes in the terminal, your goal is to see the codes in the notepad and be fast enough to write it in the terminal. While you do this, there is a virus slowly destroing your computer. 
