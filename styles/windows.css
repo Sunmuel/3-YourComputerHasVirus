@@ -64,6 +64,34 @@
 }
 
 #taskbar {
-    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C0C0C0;
     grid-area: 12 / 1 / 13 / 13;
+}
+
+#taskbar img,
+#taskbar button {
+    border: none;
+    background-color: transparent;
+    width: 100px;
+    margin-left: 5px;
+    font-family: Tiny5;
+    font-size: 20px;
+}
+
+#time {
+    padding: 10px;
+    border: 2px solid black;
+    border-top-color: #868686;
+    border-left-color: #868686;
+    border-bottom-color: white;
+    border-right-color: white;
+    margin-right: 5px;
+}
+
+#raids {
+    background-color: lightblue;
+    grid-area: 1 / 10 / 7 / 13;
 }
