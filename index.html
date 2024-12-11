@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YourComputerHasVirus</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/popup.css">
-  <link rel="stylesheet" href="styles/windows.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div id="page">
-    <div id="terminal">
-      <img src="images/terminal.png" alt="Windows 95 terminal">
-      <div id="terminal-text">
-        <p id="windows-version">Microsoft(R) Windows 95</p>
-        <p id="microsoft-copyright">(C)Copyright Microsoft Corp 1981-1995</p>
-        <div id="commands-input">
-          <p>C:/></p>
-          <textarea></textarea>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourComputerHasVirus</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/windows.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="page">
+      <div id="terminal">
+        <img src="images/terminal.png" alt="Windows 95 terminal" />
+        <div id="terminal-text">
+          <p id="windows-version">Microsoft(R) Windows 95</p>
+          <p id="microsoft-copyright">(C)Copyright Microsoft Corp 1981-1995</p>
+          <div id="commands-input">
+            <p>C:/></p>
+            <textarea id="textarea"></textarea>
+          </div>
         </div>
       </div>
+      <div id="notepad">
+        <img
+          src="images/notepad.png"
+          alt="Windows 95 notepad image editing the file name virus.exe"
+        />
+        <p>a</p>
+      </div>
+      <div id="taskbar">
+        <button id="start">
+          <img src="images/start.png" alt="Windows 95's Start button" />
+        </button>
+        <div id="time"></div>
+      </div>
+      <div id="a"></div>
+      <div id="raids">
+        <img
+          src="images/raids.png"
+          alt="Windows 95 notepad image editing the file name Raids"
+        />
+      </div>
     </div>
-    <div id="notepad">
-      <img src="images/notepad.png" alt="Windows 95 notepad image editing the file name virus.exe">
-    </div>
-    <div id="taskbar">
-      <button id="start">
-        <img src="images/start.png" alt="Windows 95's Start button">
-      </button>
-      <div id="time"></div>
-    </div>
-    <!-- <div id="virus-popup">
-      <img src="images/popup-virus.png" alt="">
-      <h1 >ERROR 999</h1>
-      <button id="end-task"><img src="images/end-task.png" alt=""></button>
-      <button id="ok-button"><img src="images/ok-button.png" alt=""></button>
-    </div> -->
-    <div id="raids">
-      <img src="images/raids.png" alt="Windows 95 notepad image editing the file name Raids">
-    </div>
-  </div>
-  <script type="module" src="scripts/scripts.js"></script>
-  <script type="module" src="scripts/time.js"></script>
-</body>
+    <script type="module" src="scripts/scripts.js"></script>
+    <script type="module" src="scripts/assets/time.js"></script>
+    <script type="module" src="scripts/assets/copy.js"></script>
+  </body>
 </html>
