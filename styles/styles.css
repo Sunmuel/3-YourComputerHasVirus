@@ -3,3 +3,9 @@ body {
   background-color: #038084;
   margin: 0;
 }
+
+img {
+  pointer-events: none;
+  width: 100%;
+  height: auto;
+}
